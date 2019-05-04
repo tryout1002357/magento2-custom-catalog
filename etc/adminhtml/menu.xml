@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Tryout
+ * @package    Tryout_CustomCatalog
+ * @author     sam.demo@gmail.com
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Backend/etc/menu.xsd">
+    <menu>
+        <!-- <add id="tryout_customcatalog::core" title="CustomCatalog" module="Tryout_CustomCatalog" sortOrder="90" resource="Tryout_CustomCatalog::sample"/>
+        <add id="tryout_customcatalog::test" title="Items" module="Tryout_CustomCatalog" sortOrder="10" parent="tryout_customcatalog::core" action="tryout_customcatalog/items/" resource="Tryout_CustomCatalog::items"/> -->
+        <add id="tryout_customcatalog::test" title="CustomCatalog" module="Tryout_CustomCatalog" sortOrder="11" parent="Magento_Catalog::catalog" action="tryout_customcatalog/items/" resource="Tryout_CustomCatalog::items"/>
+    </menu>
+</config>
